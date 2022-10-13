@@ -11,7 +11,7 @@
 
 body{
     text-align: center;
-    padding: 5% 15%;
+    padding: 5% 10%;
     font-family: 'fredoka', sans-serif;
 }
 
@@ -33,7 +33,9 @@ header{
     height: 5rem;
     width: 30%;
     background-color: #0f0e17;
+    color: white;
     margin-right: 5%;
+    text-align: left;
 }
 
 .card:last-child{
@@ -44,4 +46,21 @@ img{
     height: inherit;
     width: auto;
     float: left;
+    margin-right: .5rem;
+}
+
+:not(img){
+    margin-top: .5rem;
+}
+
+h2:nth-child(2){
+    font-size: 1rem;
+}
+
+div span,address{
+    font-size: .8rem;
+}
+
+address:last-child{
+    color: #33b0e7;
 }
