@@ -95,7 +95,8 @@ address:hover{
 }
 
 .right{
-    margin-left: 25%;
+    width: 75%;
+    float: right;
 }
 
 .left img{
@@ -112,6 +113,7 @@ address:hover{
 
 .box :not(img){
     padding-top: 2.5rem;
+    font-size: 1.2rem;
 }
 
 .cops_container div{
