@@ -25,6 +25,10 @@ section{
     margin-bottom: 5rem;
 }
 
+span{
+    display: inline-block;
+}
+
 .cards_row{
     display: block;
     width: inherit;
@@ -54,7 +58,7 @@ img{
     margin-right: .5rem;
 }
 
-:not(img){
+.card :not(img){
     margin-top: .5rem;
 }
 
@@ -74,3 +78,29 @@ address:hover{
     color: #92c3d9;
 }
 
+.bonus :first-child{
+    padding-bottom: 0;
+}
+
+.box{
+    height: 14rem;
+    width: 75%;
+    background-color: #1c1644;
+    color: white;
+    margin-right: 25%;
+    text-align: center;
+    box-shadow: 8px 8px 20px #0f0e17;
+
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.box :not(img){
+    padding-top: 2.5rem;
+}
