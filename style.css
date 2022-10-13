@@ -14,3 +14,20 @@ header{
     padding-bottom: 3rem;
     color: #e53170;
 }
+
+.cards_row{
+    display: block;
+    height: 60px;
+    width: 100%;
+    border: 5px solid red;
+    margin-top: 3rem;
+    padding: 0 .5rem;
+}
+
+.card{
+    float: left;
+    height: 5rem;
+    width: 30%;
+    background-color: #0f0e17;
+    margin-right: calc(10% / 3);
+}
