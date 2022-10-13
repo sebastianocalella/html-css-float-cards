@@ -142,3 +142,7 @@ address:hover{
     width: auto;
     float: left;
 }
+
+footer{
+    text-align: right
+}
