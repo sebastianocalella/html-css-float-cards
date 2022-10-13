@@ -51,7 +51,7 @@ span{
     margin-right: 0;
 }
 
-img{
+.card img{
     height: inherit;
     width: auto;
     float: left;
@@ -87,17 +87,23 @@ address:hover{
     width: 75%;
     background-color: #1c1644;
     color: white;
-    margin-right: 25%;
     text-align: center;
     box-shadow: 8px 8px 20px #0f0e17;
-
-}
-
-.left{
-    float: left;
 }
 
 .right{
+    margin-left: 25%;
+}
+
+.left img{
+    height: inherit;
+    width: auto;
+    float: left;
+}
+
+.right img{
+    height: inherit;
+    width: auto;
     float: right;
 }
 
