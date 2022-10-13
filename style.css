@@ -3,6 +3,12 @@
     margin: 0;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body{
     text-align: center;
     padding: 5% 15%;
@@ -17,9 +23,7 @@ header{
 
 .cards_row{
     display: block;
-    height: 60px;
-    width: 100%;
-    border: 5px solid red;
+    width: inherit;
     margin-top: 3rem;
     padding: 0 .5rem;
 }
@@ -29,5 +33,9 @@ header{
     height: 5rem;
     width: 30%;
     background-color: #0f0e17;
-    margin-right: calc(10% / 3);
+    margin-right: 5%;
+}
+
+.card:last-child{
+    margin-right: 0;
 }
