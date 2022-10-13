@@ -15,10 +15,28 @@ body{
     font-family: 'fredoka', sans-serif;
 }
 
+.fl_left{
+    float: left;
+}
+
+.fl_right{
+    float: right;
+}
+
 
 header{
     padding-bottom: 3rem;
     color: #e53170;
+}
+
+img{
+    height: 5.5rem;
+    width: auto;
+    margin-right: .5rem;
+}
+
+section{
+    margin-bottom: 5rem;
 }
 
 .cards_row{
@@ -29,9 +47,8 @@ header{
 }
 
 .card{
-    float: left;
-    height: 5rem;
-    width: 32%;
+    width: 31%;
+    display: inline-block;
     background-color: #0f0e17;
     color: white;
     margin-right: 2%;
@@ -41,13 +58,6 @@ header{
 
 .card:last-child{
     margin-right: 0;
-}
-
-img{
-    height: inherit;
-    width: auto;
-    float: left;
-    margin-right: .5rem;
 }
 
 :not(img){
