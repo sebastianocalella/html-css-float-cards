@@ -84,11 +84,14 @@ address:hover{
 
 .box{
     height: 14rem;
-    width: 75%;
     background-color: #1c1644;
     color: white;
     text-align: center;
     box-shadow: 8px 8px 20px #0f0e17;
+}
+
+.left{
+    margin-right: 25%;
 }
 
 .right{
@@ -109,4 +112,19 @@ address:hover{
 
 .box :not(img){
     padding-top: 2.5rem;
+}
+
+.cops_container div{
+    margin-bottom: 3rem;
+    width: 45%;
+    display: inline-block;
+}
+
+.cops_container .left,.right{
+    margin: 0 2%;
+}
+
+.cops_container img{
+    height: 65%;
+    width: auto;
 }
