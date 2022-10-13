@@ -11,7 +11,7 @@
 
 body{
     text-align: center;
-    padding: 5% 10%;
+    padding: 2% 10%;
     font-family: 'fredoka', sans-serif;
 }
 
@@ -24,18 +24,19 @@ header{
 .cards_row{
     display: block;
     width: inherit;
-    margin-top: 3rem;
+    margin-top: 2.4rem;
     padding: 0 .5rem;
 }
 
 .card{
     float: left;
     height: 5rem;
-    width: 30%;
+    width: 32%;
     background-color: #0f0e17;
     color: white;
-    margin-right: 5%;
+    margin-right: 2%;
     text-align: left;
+    box-shadow: 4px 4px 8px #0f0e17;
 }
 
 .card:last-child{
