@@ -65,3 +65,7 @@ div span,address{
 address:last-child{
     color: #33b0e7;
 }
+
+address:hover{
+    color: #92c3d9;
+}
