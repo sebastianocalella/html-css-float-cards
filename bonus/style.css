@@ -15,6 +15,19 @@ body{
     font-family: 'fredoka', sans-serif;
 }
 
+.fl_left{
+    float: left;
+}
+
+.fl_right{
+    float: right;
+}
+
+img{
+    height: 5.5rem;
+    width: auto;
+    margin-right: .5rem;
+}
 
 header{
     padding-bottom: 3rem;
@@ -25,10 +38,6 @@ section{
     margin-bottom: 5rem;
 }
 
-span{
-    display: inline-block;
-}
-
 .cards_row{
     display: block;
     width: inherit;
@@ -37,29 +46,13 @@ span{
 }
 
 .card{
-    float: left;
-    height: 5rem;
-    width: 32%;
-    background-color: #0f0e17;
+    width: 30%;
+    display: inline-block;
     color: white;
     margin-right: 2%;
     text-align: left;
+    background-color: #0f0e17;
     box-shadow: 4px 4px 8px #0f0e17;
-}
-
-.card:last-child{
-    margin-right: 0;
-}
-
-.card img{
-    height: inherit;
-    width: auto;
-    float: left;
-    margin-right: .5rem;
-}
-
-.card :not(img){
-    margin-top: .5rem;
 }
 
 section:first-child :nth-child(2){
@@ -68,6 +61,10 @@ section:first-child :nth-child(2){
 
 div span,address{
     font-size: .8rem;
+}
+
+.card :not(img){
+    margin-top: .5rem;
 }
 
 address:last-child{
@@ -82,8 +79,12 @@ address:hover{
     padding-bottom: 0;
 }
 
-.box{
+section:nth-child(2) img{
     height: 14rem;
+}
+
+.box{
+    width: 75%;
     background-color: #1c1644;
     color: white;
     text-align: center;
@@ -95,20 +96,15 @@ address:hover{
 }
 
 .right{
-    width: 75%;
-    float: right;
+    margin-left: 25%;
 }
 
-.left img{
-    height: inherit;
-    width: auto;
-    float: left;
+#betta{
+    margin-left: 25%;
 }
 
 .right img{
-    height: inherit;
-    width: auto;
-    float: right;
+    margin-right: 0;
 }
 
 .box :not(img){
@@ -126,21 +122,10 @@ address:hover{
     margin: 0 2%;
 }
 
-.cops_container img{
-    height: 65%;
-    width: auto;
-}
-
 #final_box{
     width: 60%;
     margin: 0 20%;
     padding: 3%;
-}
-
-#final_box img{
-    height: inherit;
-    width: auto;
-    float: left;
 }
 
 footer{
