@@ -12,12 +12,12 @@
 body{
     text-align: center;
     font-family: 'fredoka', sans-serif;
-    background-image: url(./img/logo.png);
+    background-image: url(./img/logo\ boolean\ alternato.png);
     background-size: 7%;
 }
 
 .background{
-    background-color: rgb(255, 255, 255, 0.92);
+    background-color: rgb(255, 255, 255, 0.95);
     padding: 2% 10%;
 }
 
@@ -62,6 +62,11 @@ section{
     box-shadow: 4px 4px 8px #0f0e17;
 }
 
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    background-color: #494759;
+}
+
 section:first-child :nth-child(2){
     font-size: 1rem;
 }
@@ -96,6 +101,11 @@ section:nth-child(2) img{
     color: white;
     text-align: center;
     box-shadow: 8px 8px 20px #0f0e17;
+}
+
+.box:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    background-color: #524d78;
 }
 
 .left{
